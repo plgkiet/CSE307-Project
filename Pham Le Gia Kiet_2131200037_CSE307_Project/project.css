@@ -1,0 +1,613 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    box-shadow: 10px 10px 5px gray;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+}
+
+div#vnflg {
+    background-color: #EEEEEE;
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+}
+
+div#vnflg1 {
+    position: relative;
+    left: 140px;
+}
+
+div#vnflg a#vnflg {
+    color: red;
+    text-decoration: none;
+    position: relative;
+    left: 10px;
+}
+
+div#vnflg a#vnflg:hover {
+    color: #007acc;
+}
+
+div#vnflg img:hover {
+    opacity: 0.8;
+}
+
+
+div#logo {
+    padding: 10px;
+    position: relative;
+    margin-top: 0px;
+    top: 0px;
+    left: 150px
+}
+
+nav {
+    position: relative;
+    top: 50px;
+    left: 70px;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #996600;
+}
+
+nav .donate-button {
+    background-color: #CC9966;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid black;
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+nav .donate-button:hover {
+    transform: scale(1.1);
+}
+
+nav a.dropdown-item {
+    overflow: hidden;
+}
+
+nav a.dropdown-item:hover {
+    color: #996600;
+    transform: scale(1.1);
+}
+
+* {
+    box-sizing: border-box
+}
+
+.mySlides {
+    display: none;
+}
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    /* Ngăn chặn hình ảnh tràn ra khỏi phần tử cha */
+}
+
+.slideshow-text {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button#done {
+    position: absolute;
+    bottom: 0;
+    /* Adjusted to position at the bottom */
+    bottom: 15%;
+    background-color: #CC9966;
+    color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    /* Center horizontally */
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button#done:hover {
+    background-color: #996633;
+    /* Màu nền khi di chuột qua */
+}
+
+.fade {
+    -webkit-animation: fade 4.5s ease-in-out infinite;
+    animation: fade 4.5s ease-in-out infinite;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: 0.8;
+        transform: scale(1);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.8;
+        transform: scale(1);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+}
+
+.border-container {
+    display: flex;
+    width: 100%;
+    height: 20px;
+    /* You can set the height to the desired value */
+}
+
+.border-segment {
+    flex-grow: 0;
+    /* Set to 0 for equal-width segments */
+    width: 100%;
+}
+
+.brown1 {
+    background-color: #CC9966
+}
+
+.brown2 {
+    background-color: #996633;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+
+
+div h1#sp {
+    color: orange;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+}
+
+div h4#notesp {
+    color: black;
+    font-style: italic;
+    font-style: underline;
+    text-align: center;
+    line-height: 0px;
+}
+
+div p#a {
+    margin-left: 50px;
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+div p#b {
+    margin-left: 50px;
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+    margin-top: 50px;
+}
+
+div#product {
+    margin-top: 0px;
+}
+
+#product .product-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 450px;
+    height: 700px;
+    margin: 10px;
+    background-color: #E8E8E8	;
+    text-align: center;
+}
+
+#product .product-box h2 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#product .product-box p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+#product .product-box .price {
+    color: #E44D26;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#product .product-box .add-to-cart {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 0px;
+    width: 450px;
+    height: 50px;
+    position: relative;
+    right: 20px;
+    bottom: 0px;
+    cursor: pointer;
+}
+
+#product .product-box .rating {
+    color: #f4d03f;
+}
+
+#product .product-box img {
+    box-shadow: 2px 2px 5px gray;
+}
+
+#product .top-row {
+    display: flex;
+    justify-content: space-between;
+    border: 0px solid #007acc;
+    padding: 15px;
+    vertical-align: middle;
+    align-items: center;
+}
+
+#product .top-row .product-box {
+    margin: 10px;
+}
+
+#product .product-box img:hover {
+    transform: scale(1.1);
+}
+
+#product .product-box .add-to-cart:hover {
+    background-color: #CC6600;
+}
+
+#tshirt .product-box {
+    border: 1px solid #ddd;
+    width: 600px;
+    height: 700px;
+    margin: 10px;
+    background-color: #fff;
+}
+
+#tshirt div#detail {
+    width: 600px;
+    height: 160px;
+    padding: 10px;
+    color: white;
+    background-color: #996633;
+    text-align: center;
+
+}
+
+
+#tshirt .top-row {
+    display: flex;
+    justify-content: space-between;
+    border: 0px solid none;
+    padding-left: 100px;
+    padding-right: 100px;
+    vertical-align: middle;
+    align-items: center;
+}
+
+
+#tshirt .top-row .product-box {
+    margin: 10px;
+}
+
+.table th,
+td {
+    border: none;
+}
+
+#table1 {
+    margin-top: 20px;
+    text-align: center;
+    color: red;
+    position: relative;
+    left: 160px;
+    font-size: 31px;
+    font-family: Lucida;
+}
+
+.table img {
+    border-radius: 50px;
+}
+
+.table button {
+    font-size: 30px;
+}
+
+#table2 {
+    position: relative;
+    margin-left: 0px;
+    text-align: center;
+}
+
+
+
+#project .top-row .project {
+    margin: 10px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.project {
+    float: left;
+    width: calc(33.33% - 20px);
+    /* Adjusted width to include spacing */
+    margin: 10px;
+    /* Added margin for spacing */
+    height: 760px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    text-align: center;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.project:hover {
+    box-shadow: 5px 5px 5px gray;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+.project h2 {
+    padding-top: 10px;
+    color: #996666;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.title {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #CC6600;
+}
+
+.project #demo1,
+#demo2,
+#demo3,
+#demo4,
+#demo5,
+#demo6 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #CC9966;
+    color: white;
+    cursor: pointer;
+    border-radius: 40px;
+    font-size: 18px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+#myBtn img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.footer {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    color: white;
+    padding: 20px;
+    background-image: url('project_image/footer.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.footer::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+.footer>div {
+    position: relative;
+    z-index: 1;
+}
+
+.footer .contact-info,
+.footer .social-links,
+.footer .location-lis,
+.footer .receive {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer h3 {
+    color: #00FFCC;
+}
+
+.footer a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links a {
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .contact-info,
+    .footer .social-links,
+    .footer .location-list,
+    .footer .receive {
+        margin-bottom: 20px;
+    }
+}
+
+.footer h3 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.subscription-form {
+    max-width: 300px;
+    margin: auto;
+    position: relative;
+    bottom: 20px;
+    right: 25px;
+}
+
+.subscription-form input[type="email"] {
+    width: calc(100% - 100px);
+    padding: 10px;
+    margin-right: -10px;
+    border: 2px solid #555;
+    border-right: none;
+    border-radius: 25px 0 0 25px;
+    outline: none;
+}
+
+.subscription-form button {
+    width: 100px;
+    padding: 10px;
+    border: 2px solid #555;
+    border-left: none;
+    background-color: #026466;
+    color: #fff;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+    outline: none;
+}
+
+.subscription-form button:hover {
+    background-color: #00405d;
+}
+
+#table0 {
+    margin-top: 20px;
+    text-align: left;
+    position: relative;
+    left: 200px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#table0 p {
+    color: gray;
+}
+
+
+#table0 #th1 {
+    width: 40%;
+}
+
+#table0 #th2 #alu {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#table0 #th2 img:hover {
+    transform: scale(1.1); 
+}
+
+div #poster {
+    position: relative;
+    left: 150px;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    padding: 15px;
+    vertical-align: middle;
+    align-items: center;
+}
+
+div #poster img:hover {
+    transform: scale(1.1);
+}
